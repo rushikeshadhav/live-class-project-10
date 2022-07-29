@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: url("./images/retro-living-room-interior-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    height: 100vh;
+    padding: 40px 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-heading {
+    width: 190px;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FFF;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    list-style: none;
+    /* background-color: red; */
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 25px;
+    padding-left: 0;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.call-cont {
+    display: flex;
+}
+
+.call-cont i {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    position: relative;
+    /* background-color: orange; */
+    margin-top: 30px;
+    height: 500px;
+}
+
+.main-heading {
+    font-size: 60px;
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 320px;
+    /* background-color: red; */
+    width: 650px;
+    color: #FFF;
+}
+
+.btn {
+    height: 60px;
+    width: 190px;
+    font-size: 18px;
+    background: none;
+    border-radius: 40px;
+    color: #fff;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.box {
+    position: absolute;
+    height: 120px;
+    width: 230px;
+    padding: 25px;
+    background-color: rgba(45, 94, 126, 0.4);
+}
+
+.box i {
+    padding: 10px 25px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.box1 {
+    top: 40px;
+    right: 50px;
+}
+
+.box2 {
+    top: 369px;
+    right: 442px;
+}
+
+.box h4 {
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.vertical-line {
+    position: absolute;
+    right: 139px;
+    top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-div {
+    height: 70px;
+    width: 2px;
+    background-color: #fff;
+}
+
+.circle-div {
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 434px;
+    right: 342px;
+}
+
+.line-div-2 {
+    height: 2px;
+    width: 80px;
+    background-color: #fff;
+}
+
+.circle-div-2 {
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
